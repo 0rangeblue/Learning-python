@@ -1,0 +1,23 @@
+El docstring o la documentación está dividido en tres partes importantes que son las siguientes:
+
+Primero se da una descripción clara y concisa de la función y su funcionamiento.
+En medio se agrega la descripción de los diferentes parámetros, su tipo, su nombre y que es lo que se espera de esos parámetros.
+Por ultimo se agrega que es lo que devuelve nuestra función.
+
+Tienen 3 partes fundamentales
+
+Que hace la funcion
+Que significan los parametros: Cual es el nombre del parametro y Cual es el tipo del parametro
+Que regresa esta funcion
+
+
+def suma(a, b):
+	"""Suma dos valores a y b.
+
+	param int a cualquier entero
+	param int b cualquier entero
+	returns la sumatoria de a y b
+	"""
+
+	total = a + b
+	return total

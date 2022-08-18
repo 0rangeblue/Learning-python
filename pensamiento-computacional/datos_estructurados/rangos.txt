@@ -1,0 +1,76 @@
+Los rangos:
+Representan una secuencia de enteros.
+range(comienzo,fin,pasos)
+Al igual que las cadenas y las tuplas, los rangos son inmutables.
+Muy eficientes en uso de memoria y normalmente utilizados en for loops
+
+>>> my_range = range(0, 7, 2)
+>>> my_other_range = range(0, 8, 2)
+>>> 
+>>> my_range == my_other_range
+True
+>>> for i in my_range:
+...     print(i)
+... 
+0
+2
+4
+6
+>>> for i in my_other_range:
+...     print(i)
+... 
+0
+2
+4
+6
+>>> id(my_range)
+140399593320336
+>>> id(my_other_range)
+140399594073808
+
+Value equality: contienen el mismo valor: x == y
+Object equality: son el mismo objecto: x is y
+
+>>> my_range is my_other_range
+False
+
+Para ver los numeros pares:
+>>> for i in range(0, 30, 2):
+...     print(i)
+... 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+ 
+Para ver los numeros impares:
+
+>>> for i in range(0, 30, 2):
+...     print(i+1)
+... 
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29

@@ -1,0 +1,30 @@
+1 solo '=' significa asignacion de valor:
+a = 2
+x = 4
+z = (a * x) / 2
+
+Al asignar una variable hay que dar nombres exactos de lo que significa nuesta variable, lo correcto seria:
+base = 2
+altura = 4
+area = (base * altura) / 2
+
+Entonces pasamos de un programa que no podiamos entender bien lo que pasaba a un programa que podemos leer rapidamente.
+Las variables tienen que tener nombres que signifiquen algo para los humanos no solo variables como en matematicas si no en nombres
+reales que signifiquen algo.
+
+Reasignacion de variables:
+>>> my_var = 'Hello platzi :)'
+>>> print(my_var)
+>>> Hello platzi :)
+>>> my_var = 4
+>>> print(my_var)
+>>> 4
+Aqui las variables siguen siendo las mismas solo que ahora estan apuntando a otro lugar en memoria.
+
+Reglas de las variables:
+*Pueden contener mayusculas, minusculas, numeros(sin comenzar con uno) y el simbolo '_'
+*No pueden llamarse como las palabras reservadas
+
+'=' (significa asignacion, es la forma en la que asignamos los nombres de variable con un valor en memoria)
+
+Lista de palabras reservadas en una imagen dentro de esta carpeta

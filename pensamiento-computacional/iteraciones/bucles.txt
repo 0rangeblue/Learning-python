@@ -1,0 +1,21 @@
+BUCLES
+Los bucles nos permiten repetir una porcion de codigo tantas veces como queramos. Python incluye unicamente dos tipos de bucle: while
+y for. 
+
+Bucle While:
+La palabra while ejecuta una porcion de codigo una y otra vez hasta que la condicion especificada sea falsa: o dicho de otro modo
+ejecuta una porcion de codigo mientras que la condicion sea verdadera:
+a = 1 
+while a < 10:
+   print('Hola, Mundo')
+
+Si ejecutamos este codigo, veremos que el programa imprime infinitamente el mensaje en pantalla. Eeso ocurre porque la condicion
+a < 10 es siempre verdadera (True (porque 1 es menor que 10))
+
+a = 1 
+while a < 10:
+   print('Hola, Mundo')
+   a += 1
+
+El bucle while termina hasta que la condicion deje de ser verdadera
+El bucle for termina hasta que la condicion sea falsa

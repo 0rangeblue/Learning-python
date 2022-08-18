@@ -1,0 +1,4 @@
+Ya sabemos hacer programas ramificados, sabemos utilizar if, elif y else y sabemos como se relacionan entre ellos, reto: 
+
+1.-Es que escribas un programa que compare las edades de 2 usuarios y que diga quien es mayor que el otro usuario y que pregunte el 
+nombre de los usuarios y te debe decir el nombre de cual de los 2 usuarios tiene una mayor edad o menor edad o si tienen la misma edad

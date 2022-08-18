@@ -1,0 +1,6 @@
+Es uno de los temas mas importantes dentro de las ciencias de la computacion:
+
+Podemos definirla de manera Algoritmica:
+	Una forma de crear soluciones utilizando el principio de 'Divide y venceras.'
+Podemos definirla de manera Programatica:
+	Una tecnica programatica mediante la cual una funcion se llama a si misma

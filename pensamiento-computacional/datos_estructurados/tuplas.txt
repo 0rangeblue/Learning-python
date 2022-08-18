@@ -1,0 +1,58 @@
+Los tipos de datos estructurados nos permiten agrupar muchos valores adentro de una sola variable
+
+Tipos de datos:
+Tuplas: 
+Son secuencias inmutables de objetos (son una lista de valores que no podemos modificar)
+Las Tuplas pueden tener cualquier tipo de valor mientra que las cadenas solo pueden tener caracteres, es decir podemos tener tuplas
+de strings, de booleanos o tuplas mixtas y en otros lenguajes de programacion como en Java no se permiten mezclar este tipo de objetos
+pero en Python si.
+Las tuplas no las podemos modificar, solo las podemos reasignar, no podemos cambiar los elementos tendriamos que generar una tupla
+nueva.
+Las tuplas solo van dentro de parentesis porque si van dentro de corchetes seria una lista.
+
+>>> my_tuple = ()
+>>> type(my_tuple)
+<class 'tuple'>
+>>> my_tuple = (1, 'dos', True)
+>>> my_tuple = [0]
+>>> my_tuple
+[0]
+>>> my_tuple = (1, 'dos', True)
+>>> my_tuple[0]
+1
+>>> my_tuple[1]
+'dos'
+
+Para definir las tuplas tenemos que agregar una coma, para definir una tupla de un solo valor solo hay que abrir parentesis + el valor
++ , (y asi definimos una tupla para que sea tupla los valores dentro de la tupla tienen que estar separadas por coma) las tuplas 
+también se pueden representar sin paréntesis.
+
+>>> my_tuple = 1, 2, 3
+>>> print(my_tuple)
+(1, 2, 3)
+
+>>> my_tuple = (1)
+>>> type(my_tuple)
+<class 'int'>
+>>> my_tuple = (1,)
+>>> type(my_tuple)
+<class 'tuple'>
+
+Tambien podemos sumar las tuplas, con esto conseguimos una reasignacion, no cambiamos el valor que esta dentro de la tupla.
+
+>>> my_tuple = (1,)
+>>> my_other_tuple = (2, 3, 4)
+>>> my_tuple += my_other_tuple
+>>> print(my_tuple)
+(1, 2, 3, 4)
+
+Podemos tambien desempaquetar las tuplas, aqui vamos a desempaquetar los valores de la tupla
+>>> x, y, z = my_other_tuple
+>>> print(my_other_tuple)
+(2, 3, 4)
+>>> z
+4
+>>> x
+2
+>>> y
+3

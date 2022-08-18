@@ -1,0 +1,49 @@
+Operadores de comparacion donde podemos realizar comparaciones entre 2 variables, entre 2 valores y determinar cual es el resultado
+de esta operacion, por ejemplo:
+>>> 2 == 3 (aqui si se dan cuenta tenemos doble igual porque 1 igual significa asignacion entonces doble = se lee como es igual 
+por lo que 2 == 3 es False porque 2 no es 3)
+>>> 2 == 3
+False
+>>> 2 != 3 (este es el operador de desigualdad o de no igualdad en donde decimos 2 no es igual a 3 y esto es True)
+>>> 2 != 3
+True
+>>> 2 > 3
+>>> 2 < 3
+>>> 2 <= 3
+>>> 2 >= 3
+
+if <condition>:
+    <expresion>
+else:
+    <expresion>
+
+if 5 <= 10:
+    ...
+else:
+    print('5 no es mayor o igual que 10')
+
+En Python se utiliza indentacion para denotar la forma en la que diferenciamos la condicion del cuerpo o el codigo de esta condicion
+y en python la convencion es utilizar 4 espacios, esto es distinto en cada lenguaje de programacion por ejemplo en Java se utilizan
+llaves '{}' o en JavaScript se utilizan llaves para denotar donde estan los bloques de codigo pero en Python la forma en la que se ve
+el programa es de hecho la forma en la que corre, entonces la indentacion es bien importante.
+
+if <si existe una condicion>:
+    <ejecutamos esta expresion>
+elif <si existe otra condicion>:
+    <ejecutamos la segunda expresion
+else <de lo contrario>:
+    <de lo contrario ejecutamos la tercera expresion>
+
+Puede haber dentro de esta estructura tantos elif como queramos y entonces podemos poner si sucede algo, elif sucede otra cosa, elif 
+sucede otra cosa, elif sucede otra cosa, elif sucede otra cosa, elif sucede otra cosa, else sucede un ultimo escenario
+
+if 4 > 5:
+    ...
+elif 4 < 5:
+    print('4 es menor que 5')
+
+else: 
+    ...
+
+En este caso el if no se va a ejecutar porque eso es False y no se va a ejecutar, elif es True y else no se va a ejecutar porque?
+porque la condicion de elif fue True

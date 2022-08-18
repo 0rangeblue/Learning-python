@@ -1,0 +1,34 @@
+Elementos basicos que tenemos que aprender dentro de un lenguaje de programacion y que lo podemos traducir a cualquier otro lenguaje
+de programacion:
+
+Lenguajes de programacion:
+Bajo nivel:
+Que esta optimizado para que una maquina pueda leerlo (binario, hexadecimal)
+Alto nivel:
+Creado para los humanos, se acerca mucho mas al lenguaje natural, a la forma en la que nos comunicamos los humanos
+General:
+Los lenguajes generales pueden computar cualquier tipo de algoritmo
+Dominio especifico:
+Son lenguajes especializados que se usan hacia aplicaciones muy especificas
+Interpretado:
+Estos lenguajes significan que mientras corre el programa; despues de cada instruccion esta instruccion se traduce al lenguaje maquina
+y la maquina lo puede leer
+Compilado:
+Que nosotros convertimos el lenguaje antes de entregarselo a la computadora en un lenguaje maquina
+
+Python es un lenguaje de alto nivel se parece mas a la forma en la que nos comunicamos los humanos y a la forma en la que entienden las
+maquinas, es un lenguaje general y es interpretado, la maquina lo va leyendo y cada instruccion lo convierte en tiempo real a un
+lenguaje que puede entender la computadora
+
+						Elementos Basicos de Python:
+# <literales> = 1, 'abc', 2.0, True
+# <operadores> = + / * % ** = ==
+# <literal> <operador> <literal>
+
+>>> 1 + 2
+>>> 1 3. 0 # error sintactico
+>>> 5 / 'Platzi' # error semantico o estatico
+>>> 5 * 'Platzi' = 'PlatziPlatziPlatziPlatziPlatzi'
+
+# statement o enunciado
+>>> print('Hello, Platzi') 
