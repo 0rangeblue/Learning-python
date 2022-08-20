@@ -1,23 +1,11 @@
 def conversor(pais, valor):
-    pesos = int(
-        input(
-            f"""\n{
-                nombre.capitalize()
-            } introduce la cantidad de pesos {
-                pais.capitalize()
-            } a convertir: """
-        )
-    )
+    pesos = int(input(f"""\n{
+        nombre.capitalize()
+        } introduce la cantidad de pesos {
+            pais.capitalize()} a convertir: """))
     dolares = pesos / valor 
-    print(
-        f"""\n{
-            nombre.capitalize()
-        } tienes ${
-            str(
-                round(dolares, 2)
-            )
-        } dolares"""
-    )
+    print(f"""\n{nombre.capitalize()} tienes ${str(
+                round(dolares, 2))} dolares""")
 
 nombre = input(
     '\nHola, cual es tu nombre? '
