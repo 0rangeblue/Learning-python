@@ -1,0 +1,6 @@
+Estos son los primitivos: tipos de datos sencillos
+
+Numeros enteros
+Numeros de punto flotante
+Texto (cadenas de caracteres)
+Booleanos (verdadero y falso)

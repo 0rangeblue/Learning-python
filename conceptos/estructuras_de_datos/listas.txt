@@ -1,0 +1,3 @@
+Las listas pertenecen a un conjunto llamado las estructuras de datos, las estructuras de datos son formas que nos brindan los lenguajes de
+programacion para guardar varios valores en una variable pero con diferente formato, las listas son mas intuitivas, son las que nos permiten a 
+nosotros guardar varios tipos de valores dentro de una misma caja y dentro de una misma variable.
